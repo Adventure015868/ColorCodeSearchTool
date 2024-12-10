@@ -18,6 +18,9 @@ const colorBg=()=>{
         //白色が選択されなかったとき
         text.textContent="カラーコード:"+color.value;
     }
+    /*その他の書き方
+    text.textContent=`カラーコード:${color.value}`;
+    このようにバックティックで囲み、＋の後を${}で囲む */
 }
 
 //カラーピッカーが変更されたら関数colorBgを発動させる
